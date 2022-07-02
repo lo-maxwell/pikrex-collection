@@ -18,11 +18,12 @@ See attached config.toml for example config file.
 
 Process: run
 
-```mangal inline --query "one piece" --manga 1 --chapter 1
+```
+mangal inline --query "one piece" --manga 1 --chapter 1
 ```
 
 To download the first chapter of the first listing of One Piece. Note that the search terms are not very good, so the first listing of 'one piece' might be a spinoff instead of the actual thing.
 
 There is currently no batch downloading from cli.
 
-Downloads will be found at download_path in the config file. 
+Downloads will be found at download_path in the config file.
